@@ -1,9 +1,60 @@
 .images{
     width: 500px;
-    margin: auto;
+    height: auto;
 }
 
-.image-text{
-    width: 380px;
-    margin: auto;
+.center-image{
+    width: 500px;
+    padding-left: 2em;
+}
+
+.cook-box{
+    display: inline-flex;
+    padding-left:2em;
+
+}
+
+.cook-info{
+    border: 3px solid orange;
+    border-radius: 5px;
+    margin: 24px auto 24px;
+    padding: 28px 24px 24px 24px;
+    display: block;
+}
+
+.box-header{
+    box-sizing: border-box;
+    font-size: 1.125rem;
+    font-family: "SourceSansPro", Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.box-value{
+    font-family: "SourceSansPro", Helvetica, sans-serif;
+    font-size: 1.125rem;
+    padding: 5px;
+}
+
+
+h1 {
+    font-family: "CopperPot", Helvetica, sans-serif;
+    font-size: 2.25rem;
+    font-weight: 700;
+    padding-left: 1em;
+    margin-bottom: 16px;
+}
+
+h4 {
+    padding-left: 2em;
+    font-size: 1.125rem;
+}
+
+ol, ul {
+    padding-left: 5em;
+    font-size: 18px;
+}
+
+a, p {
+    padding-left: 3em;
+    font-size: 18px;
 }
